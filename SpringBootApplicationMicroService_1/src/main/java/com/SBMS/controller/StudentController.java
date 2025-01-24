@@ -25,9 +25,11 @@ public class StudentController {
 	public String addAllData(@RequestBody List<Student> s){
 		   si.addAllStudent(s);
 		return "Student added";
-		
 	}
 	public void m1() {
 		System.out.println("this is m1");
+	}
+	public void m2() {
+		System.out.println("this is m2");
 	}
 }
