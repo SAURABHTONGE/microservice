@@ -16,5 +16,7 @@ public class HomeController {
 	public String addData(@RequestBody Student s) {
 		si.dataStudent(s);
 		return "Data Added Successfully!!";
+		
+		
 	}
 }
